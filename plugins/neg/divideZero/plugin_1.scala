@@ -10,6 +10,7 @@ import Symbols.Symbol
 import Constants.Constant
 import transform.{Pickler, ReifyQuotes}
 import StdNames._
+import scala.language.implicitConversions
 
 class DivideZero extends PluginPhase with StandardPlugin {
   val name: String = "divideZero"
